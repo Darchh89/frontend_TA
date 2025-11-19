@@ -11,7 +11,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
 public class daftarguru extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +29,9 @@ public class daftarguru extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-    Button btnDaftar = findViewById(R.id.TombolDaftar);
-    EditText EmailEdit = findViewById(R.id.EmailDaftar);
-    EditText NameEdit = findViewById(R.id.NamaDaftar);
+
+
+
 
     btnDaftar.setOnClickListener(new View.OnClickListener() {
         @Override
