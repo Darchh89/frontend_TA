@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
             startActivity(intent);
             finish(); // biar loading screen gak bisa balik
-        }, 5000); // 5000 ms = 5 detik
+        }, 1000); // 3000 ms = 5 detik
     }
 }
