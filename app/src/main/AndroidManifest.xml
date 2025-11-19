@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ELetter">
         <activity
-            android:name=".halaman_dispensasi"
-            android:exported="false" />
-        <activity
             android:name=".Sign_in_Eletter"
             android:exported="false" />
         <activity
